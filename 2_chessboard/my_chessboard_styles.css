@@ -18,3 +18,49 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+    <style>
+    body{
+      background-image: url('grey.png');
+    }
+
+    .board {
+      border: thick solid #1d7373;
+      width: 40%;
+      vertical-align: center;
+      margin: 36px auto;
+    }
+    
+    .square_dark_square{
+      
+      background: #7ee8d6; /* Old browsers */
+
+		background: -moz-linear-gradient(-45deg, #7ee8d6 3%, #1e9a91 55%, #1e9a91 100%); /* FF3.6+ */
+
+		background: -webkit-gradient(linear, left top, right bottom, color-stop(3%,#7ee8d6), color-stop(55%,#1e9a91), color-stop(100%,#1e9a91)); /* Chrome,Safari4+ */
+
+		background: -webkit-linear-gradient(-45deg, #7ee8d6 3%,#1e9a91 55%,#1e9a91 100%); /* Chrome10+,Safari5.1+ */
+
+		background: -o-linear-gradient(-45deg, #7ee8d6 3%,#1e9a91 55%,#1e9a91 100%); /* Opera 11.10+ */
+
+		background: -ms-linear-gradient(-45deg, #7ee8d6 3%,#1e9a91 55%,#1e9a91 100%); /* IE10+ */
+
+		background: linear-gradient(135deg, #7ee8d6 3%,#1e9a91 55%,#1e9a91 100%); /* W3C */
+
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ee8d6', endColorstr='#1e9a91',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      font-size: 40pt;
+      font-style:bold;
+      color:#ff8c00;
+      text-align:center;
+
+    }
+    .square {
+      font-size:40pt;
+      font-style:bold;
+      height: 72px;
+      width:72px;
+      color:#ff8c00;
+      text-align:center;
+
+    }
+    
+    </style>
